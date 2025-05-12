@@ -1,4 +1,4 @@
-nltk==3.4.3
-spacy==2.2.3
-editdistance
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz
+nltk==3.9.1
+spacy==3.8.5
+editdistance==0.8.1
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz

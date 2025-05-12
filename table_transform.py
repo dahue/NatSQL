@@ -727,7 +727,7 @@ def seperate_col_name(tables,all_words,schemas):
                 if not bk_bool and schema.column_tokens_lemma_str[j] != col[1] and len(schema.column_tokens_lemma_str[j]) > 8 and schema.column_tokens_lemma_str[j] not in all_words: 
                     col_lemma = schema.column_tokens_lemma_str[j]
                     for x in range(4,len(schema.column_tokens_lemma_str[j])-3):
-                        if col_lemma[0:x] in all_words and col_lemma[x:] in all_words and col_lemma[0:x] not in STOP_WORDS and col_lemma[x:] not in STOP_WORDSand and col_lemma[x:] not in suffix:
+                        if col_lemma[0:x] in all_words and col_lemma[x:] in all_words and col_lemma[0:x] not in STOP_WORDS and col_lemma[x:] not in STOP_WORDS and col_lemma[x:] not in suffix:
                             print(tables[i]["column_names"][j][1] + " ==================> " + tables[i]["column_names"][j][1] + " | " + col_lemma[0:x] + " " + col_lemma[x:])
                             tables[i]["column_names"][j][1] += " | " + col_lemma[0:x] + " " + col_lemma[x:]
                             break

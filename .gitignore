@@ -1,0 +1,17 @@
+# Ignore the entire spider_date/ directory
+spider_data/
+spider/
+data/
+.ipynb_checkpoints/
+__pycache__/
+
+# Ignore files
+.DS_Store
+.env
+*.json
+*.sql
+*.txt
+*.csv
+*.pyc
+*.pkl
+*.sqlite
